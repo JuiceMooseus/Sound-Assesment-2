@@ -9,7 +9,7 @@ public class TimeManager : MonoBehaviour
     public GameManager gmanager;
     public string periodOfTheDay;
 
-    public float RawTime;
+    public float RawTime, TwentyFourHourTime;
 
     // Start is called before the first frame update
     void Start()
@@ -21,7 +21,8 @@ public class TimeManager : MonoBehaviour
     void Update()
     {
 
-
+        TwentyFourHourTime = (RawTime / 1440f) * 24f;
+        FMODTimeEvent.SetParameter("Time", TwentyFourHourTime);
 
     }
 

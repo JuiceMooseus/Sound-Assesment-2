@@ -13,7 +13,7 @@ Triggered: On Start
 </value>
 		</property>
 		<property name="color">
-			<value>Green</value>
+			<value>Purple</value>
 		</property>
 		<property name="name">
 			<value>Tree</value>
@@ -109,7 +109,7 @@ Triggered: On Start
 			<destination>{8c625d97-461b-431f-bab9-1bb77645a93e}</destination>
 		</relationship>
 		<relationship name="modules">
-			<destination>{54a6d4b1-2f23-41ce-b4d8-67e1d974a02c}</destination>
+			<destination>{1142d816-ae00-4357-b143-dfaa16e53c50}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{ee6eb5c6-73bb-4006-b326-833b319e9e77}</destination>
@@ -120,7 +120,7 @@ Triggered: On Start
 			<destination>{5e9e71b7-dbdc-4530-88ca-8a634b386bb6}</destination>
 		</relationship>
 		<relationship name="modules">
-			<destination>{51aeb5eb-5f76-4a0a-a04f-1aecd9516ba3}</destination>
+			<destination>{f135c8ba-8649-4e15-bc90-7ab76ab112b9}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{797c5ebe-3541-4271-b2b1-3c46c49dff0f}</destination>
@@ -137,8 +137,8 @@ Triggered: On Start
 	</object>
 	<object class="ParameterProxy" id="{30bfea68-1f5e-4cee-92cb-f8c32c6e5d78}">
 		<relationship name="modules">
-			<destination>{54a6d4b1-2f23-41ce-b4d8-67e1d974a02c}</destination>
-			<destination>{51aeb5eb-5f76-4a0a-a04f-1aecd9516ba3}</destination>
+			<destination>{1142d816-ae00-4357-b143-dfaa16e53c50}</destination>
+			<destination>{f135c8ba-8649-4e15-bc90-7ab76ab112b9}</destination>
 		</relationship>
 		<relationship name="preset">
 			<destination>{faaa3d1d-b728-4d20-b04f-33163838e509}</destination>
@@ -209,7 +209,10 @@ Triggered: On Start
 			<destination>{0a9350f2-768a-4c3c-9585-da76b19caca7}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{54a6d4b1-2f23-41ce-b4d8-67e1d974a02c}">
+	<object class="SingleSound" id="{1142d816-ae00-4357-b143-dfaa16e53c50}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>-1</value>
 		</property>
@@ -220,7 +223,7 @@ Triggered: On Start
 			<value>true</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{7169bb4d-14ae-4928-a43e-f15eea4d412d}</destination>
+			<destination>{6c6c7ea1-6f61-4ccd-9fe8-6df06154422d}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{ee6eb5c6-73bb-4006-b326-833b319e9e77}">
@@ -245,18 +248,15 @@ Triggered: On Start
 			<destination>{ecbe662c-8b96-47fe-9945-0c7c8915e2f1}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{51aeb5eb-5f76-4a0a-a04f-1aecd9516ba3}">
+	<object class="SingleSound" id="{f135c8ba-8649-4e15-bc90-7ab76ab112b9}">
 		<property name="start">
 			<value>-1</value>
 		</property>
 		<property name="length">
 			<value>2</value>
 		</property>
-		<property name="looping">
-			<value>true</value>
-		</property>
 		<relationship name="audioFile">
-			<destination>{4cb77721-08f8-4004-b2ff-46440cfd477c}</destination>
+			<destination>{89634c17-feac-4dd2-838c-ff2ea6cc0919}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{797c5ebe-3541-4271-b2b1-3c46c49dff0f}">
@@ -340,6 +340,8 @@ Triggered: On Start
 		<relationship name="automationPoints">
 			<destination>{a17ce32a-e5a0-4b2d-b8e9-c9f022f06fad}</destination>
 			<destination>{a7765de5-bb91-49db-a140-874393d9da1f}</destination>
+			<destination>{68b8d256-c6db-4416-beb1-bc3285ac758f}</destination>
+			<destination>{98481b99-0d69-47bb-9b2b-7fb36ad3cf30}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{865b53fd-a878-4414-a193-203b12084dfe}" />
@@ -380,6 +382,7 @@ Triggered: On Start
 		<relationship name="automationPoints">
 			<destination>{69f4c924-185a-4d5a-aafb-2ab9166cff2b}</destination>
 			<destination>{38ab90af-78d3-42fe-9383-19a7b43dc057}</destination>
+			<destination>{f67ae736-ec2b-4fc3-b0c8-7d8d383665cb}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{c2db5141-9f97-4833-a3fd-0f8ae653f746}" />
@@ -395,15 +398,31 @@ Triggered: On Start
 	<object class="MixerBusFader" id="{8d7119f8-3549-471b-bf3f-8a630eecb822}" />
 	<object class="AutomationPoint" id="{a17ce32a-e5a0-4b2d-b8e9-c9f022f06fad}">
 		<property name="position">
-			<value>0.0016420361247947454</value>
+			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-16</value>
+			<value>-80</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{a7765de5-bb91-49db-a140-874393d9da1f}">
 		<property name="position">
 			<value>1</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{68b8d256-c6db-4416-beb1-bc3285ac758f}">
+		<property name="position">
+			<value>0.0090311986863710995</value>
+		</property>
+		<property name="value">
+			<value>-14</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{98481b99-0d69-47bb-9b2b-7fb36ad3cf30}">
+		<property name="position">
+			<value>0.98999999999999999</value>
 		</property>
 		<property name="value">
 			<value>-7</value>
@@ -438,7 +457,7 @@ Triggered: On Start
 			<value>-1</value>
 		</property>
 		<property name="value">
-			<value>-16</value>
+			<value>-80</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{38ab90af-78d3-42fe-9383-19a7b43dc057}">
@@ -446,7 +465,15 @@ Triggered: On Start
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>-7</value>
+			<value>-15.2000008</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{f67ae736-ec2b-4fc3-b0c8-7d8d383665cb}">
+		<property name="position">
+			<value>-0.98029556650246308</value>
+		</property>
+		<property name="value">
+			<value>-25.8733292</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{120f2323-5d42-4adb-ade4-1c8f7dea2c58}">

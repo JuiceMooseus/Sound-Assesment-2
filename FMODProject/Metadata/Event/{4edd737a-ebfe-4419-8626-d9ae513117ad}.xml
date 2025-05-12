@@ -9,7 +9,7 @@ Location: 0/Droid/DroidToolChangeFMODEvent
 Triggered: When switching tool</value>
 		</property>
 		<property name="color">
-			<value>Green</value>
+			<value>Blue Light 1</value>
 		</property>
 		<property name="name">
 			<value>SwitchTool</value>
@@ -94,8 +94,8 @@ Triggered: When switching tool</value>
 	<object class="MarkerTrack" id="{874fdb61-c583-4786-9daa-4708707aca89}" />
 	<object class="GroupTrack" id="{3825aff5-a423-467b-a95c-6099e1ad8504}">
 		<relationship name="modules">
-			<destination>{cb3fe1da-183f-4a59-8c8b-af677821a1dd}</destination>
-			<destination>{f69f6172-1876-44d3-af1a-951dcf3a5145}</destination>
+			<destination>{b1b1d281-5b20-4f92-a84a-42ee2c69fe9e}</destination>
+			<destination>{94f1ac38-7209-4d55-b072-806986663ab7}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{e1ec628b-5854-4734-a9c8-cafced72b5e6}</destination>
@@ -112,9 +112,9 @@ Triggered: When switching tool</value>
 	<object class="Timeline" id="{022d1b40-f18b-4d17-be8c-5ddb8f7d4451}" />
 	<object class="ParameterProxy" id="{7b03bc9c-000f-42e9-a5ee-3dda16145ab7}">
 		<relationship name="modules">
-			<destination>{cb3fe1da-183f-4a59-8c8b-af677821a1dd}</destination>
-			<destination>{f69f6172-1876-44d3-af1a-951dcf3a5145}</destination>
 			<destination>{c8e4515d-4d55-41fa-9960-f9c33bd20342}</destination>
+			<destination>{b1b1d281-5b20-4f92-a84a-42ee2c69fe9e}</destination>
+			<destination>{94f1ac38-7209-4d55-b072-806986663ab7}</destination>
 		</relationship>
 		<relationship name="preset">
 			<destination>{84baf3e8-4b51-426f-b92e-31587f857f63}</destination>
@@ -143,22 +143,22 @@ Triggered: When switching tool</value>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{39321674-55fb-4758-8e66-bc869caf3583}" />
-	<object class="SingleSound" id="{cb3fe1da-183f-4a59-8c8b-af677821a1dd}">
+	<object class="SingleSound" id="{b1b1d281-5b20-4f92-a84a-42ee2c69fe9e}">
+		<relationship name="audioFile">
+			<destination>{f33b5083-a108-49c3-b877-dfc9ffcfa56f}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{94f1ac38-7209-4d55-b072-806986663ab7}">
 		<property name="start">
 			<value>1</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{557649fc-7584-4139-b91f-373f8e277a56}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{f69f6172-1876-44d3-af1a-951dcf3a5145}">
-		<relationship name="audioFile">
-			<destination>{0e92c1f6-8b82-46e9-bbaa-b6b43e4dd752}</destination>
+			<destination>{8103d7c1-9542-4642-bdbb-29e9a0378a21}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{e1ec628b-5854-4734-a9c8-cafced72b5e6}">
 		<property name="volume">
-			<value>-7</value>
+			<value>-10</value>
 		</property>
 		<property name="name">
 			<value>Scan</value>
@@ -181,17 +181,17 @@ Triggered: When switching tool</value>
 			<destination>{0edaa556-3a0a-4360-aa3f-9bace7a3df98}</destination>
 		</relationship>
 		<relationship name="sounds">
-			<destination>{86de6ed2-3653-4ea1-90a9-84f574b1c291}</destination>
-			<destination>{efac6194-0242-448a-87d1-d6db6010de37}</destination>
-			<destination>{8acfef34-fd85-4338-bf5f-6cd57a6d1fed}</destination>
-			<destination>{ea407c17-e919-4fbc-ba6f-8a0d3c5fce85}</destination>
-			<destination>{c1ce1b32-f391-4366-9e62-9fc87fe4e1c0}</destination>
-			<destination>{ba64b931-9aa7-45a6-bdc7-17374f52c57f}</destination>
+			<destination>{fafdd3d7-a4de-43fc-8cab-9aa54881bc11}</destination>
+			<destination>{1ebea233-3e5e-4231-8196-3604d4639ad0}</destination>
+			<destination>{a9d53c41-3fa3-4a20-a4a6-f7e166e31b30}</destination>
+			<destination>{a748f057-d6a3-41f2-9ae0-75c4897f17dc}</destination>
+			<destination>{faa747eb-6201-4561-9976-19e007e06879}</destination>
+			<destination>{d2087eec-90e9-43be-ac00-5d5326b8060d}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{55bef8b7-f107-42de-94ff-fd5b316f5717}">
 		<property name="volume">
-			<value>-7</value>
+			<value>-2</value>
 		</property>
 		<property name="name">
 			<value>Audio 2</value>
@@ -233,34 +233,34 @@ Triggered: When switching tool</value>
 			<value>15</value>
 		</property>
 	</object>
-	<object class="SingleSound" id="{86de6ed2-3653-4ea1-90a9-84f574b1c291}">
+	<object class="SingleSound" id="{fafdd3d7-a4de-43fc-8cab-9aa54881bc11}">
 		<relationship name="audioFile">
-			<destination>{70aa8101-28b0-46b2-9509-88af25687bc9}</destination>
+			<destination>{b6d4856d-8e01-45f9-8289-066ce9e346b3}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{efac6194-0242-448a-87d1-d6db6010de37}">
+	<object class="SingleSound" id="{1ebea233-3e5e-4231-8196-3604d4639ad0}">
 		<relationship name="audioFile">
-			<destination>{aac54e77-b686-4ac3-aeb2-2fa6e383f046}</destination>
+			<destination>{821d8be1-19d9-4e73-87fe-e117ead5e166}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{8acfef34-fd85-4338-bf5f-6cd57a6d1fed}">
+	<object class="SingleSound" id="{a9d53c41-3fa3-4a20-a4a6-f7e166e31b30}">
 		<relationship name="audioFile">
-			<destination>{333ffbe3-1150-44eb-aacc-7d55f0de28ac}</destination>
+			<destination>{62a1f3e4-c422-44fd-bbb2-99477d0067ef}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{ea407c17-e919-4fbc-ba6f-8a0d3c5fce85}">
+	<object class="SingleSound" id="{a748f057-d6a3-41f2-9ae0-75c4897f17dc}">
 		<relationship name="audioFile">
-			<destination>{a2a6ebd4-e702-4edc-8b36-9e4d00ab5c68}</destination>
+			<destination>{00c6bb44-3211-446e-ad57-a4d9fc150fb5}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{c1ce1b32-f391-4366-9e62-9fc87fe4e1c0}">
+	<object class="SingleSound" id="{faa747eb-6201-4561-9976-19e007e06879}">
 		<relationship name="audioFile">
-			<destination>{6792cce5-e71c-4556-be53-0308d7137b4b}</destination>
+			<destination>{4e4bac0c-abcc-487a-bac1-edbc2d51cd27}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{ba64b931-9aa7-45a6-bdc7-17374f52c57f}">
+	<object class="SingleSound" id="{d2087eec-90e9-43be-ac00-5d5326b8060d}">
 		<relationship name="audioFile">
-			<destination>{b22ed5e5-d0b4-40e0-ae05-f6dd067c6540}</destination>
+			<destination>{57bede1d-5d49-43b2-96a6-fcea679050ca}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{a1e7014e-3386-4ef7-8cb1-adfd67d03d69}">

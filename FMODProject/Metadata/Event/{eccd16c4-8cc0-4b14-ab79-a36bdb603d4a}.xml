@@ -9,7 +9,7 @@ Location: 0/RadiationZone
 Triggered: Upon getting to within a certain distance to the radiation zone</value>
 		</property>
 		<property name="color">
-			<value>Green</value>
+			<value>Cyan</value>
 		</property>
 		<property name="name">
 			<value>Player Geiger Counter</value>
@@ -85,7 +85,7 @@ Triggered: Upon getting to within a certain distance to the radiation zone</valu
 			<destination>{31e4759b-538b-471c-b650-85683ced6aaf}</destination>
 		</relationship>
 		<relationship name="modules">
-			<destination>{b5b83cdd-3c44-489f-b883-49d330c72e07}</destination>
+			<destination>{758b22d0-a773-4e9c-bf9a-dde9b7d21c38}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{ed292531-d457-4399-b5cd-b2d327282deb}</destination>
@@ -94,7 +94,7 @@ Triggered: Upon getting to within a certain distance to the radiation zone</valu
 	<object class="Timeline" id="{1248500c-f116-47e8-822c-c825e83f7420}" />
 	<object class="ParameterProxy" id="{46beb7a6-7b71-4c27-aa4e-38c61d986146}">
 		<relationship name="modules">
-			<destination>{b5b83cdd-3c44-489f-b883-49d330c72e07}</destination>
+			<destination>{758b22d0-a773-4e9c-bf9a-dde9b7d21c38}</destination>
 		</relationship>
 		<relationship name="preset">
 			<destination>{95b9b67d-4a1e-45ab-806f-e46ce640bf5a}</destination>
@@ -132,12 +132,15 @@ Triggered: Upon getting to within a certain distance to the radiation zone</valu
 			<destination>{71b2071c-27fe-4b80-b669-a5703c29dad0}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{b5b83cdd-3c44-489f-b883-49d330c72e07}">
+	<object class="SingleSound" id="{758b22d0-a773-4e9c-bf9a-dde9b7d21c38}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="looping">
 			<value>true</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{ecbdbc20-14c5-4ff8-870f-9a3942c4b1fa}</destination>
+			<destination>{be2d39ef-b863-4538-92ad-d431b62f7232}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{ed292531-d457-4399-b5cd-b2d327282deb}">

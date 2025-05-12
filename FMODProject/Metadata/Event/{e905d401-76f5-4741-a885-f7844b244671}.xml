@@ -17,9 +17,6 @@ Location: 0/Player/Player.cs (Instance)
 Triggered: When the feet of the character animation touch the floor.
 </value>
 		</property>
-		<property name="color">
-			<value>Purple</value>
-		</property>
 		<property name="name">
 			<value>Player Footsteps</value>
 		</property>

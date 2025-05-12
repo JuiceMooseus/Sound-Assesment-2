@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{4e4bac0c-abcc-487a-bac1-edbc2d51cd27}">
+		<property name="note">
+			<value>PLANT FOLIAGE RUSTLE FOLEY MOVES by BathroomCrooner -- https://freesound.org/s/242547/ -- License: Attribution 4.0</value>
+		</property>
+		<property name="assetPath">
+			<value>Companion/Plant tool/Plant rustle 5.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.70062500000000005</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4c43130b-9186-4fb6-9d65-a9acdac70927}</destination>
+		</relationship>
+	</object>
+</objects>

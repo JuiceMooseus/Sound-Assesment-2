@@ -9,7 +9,7 @@ Location: Prefab PlayerProjectile
 Triggered: When the droid fires its laser</value>
 		</property>
 		<property name="color">
-			<value>Green</value>
+			<value>Blue Light 1</value>
 		</property>
 		<property name="name">
 			<value>Laser</value>
@@ -83,7 +83,7 @@ Triggered: When the droid fires its laser</value>
 	<object class="MarkerTrack" id="{f92b0aad-d4a3-4896-aaea-e447fb044443}" />
 	<object class="GroupTrack" id="{e5a470b9-0682-4fe9-afab-9b0258c2cb61}">
 		<relationship name="modules">
-			<destination>{097c1816-6e7d-4b0f-afc7-33ae9a169dbc}</destination>
+			<destination>{9f1fac18-9fb4-4a26-9ca7-b9cd46d8680f}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{45e230e7-c724-4cbc-a181-e6da365850d2}</destination>
@@ -91,7 +91,7 @@ Triggered: When the droid fires its laser</value>
 	</object>
 	<object class="Timeline" id="{88644c86-5e8a-4718-b91f-f1e721fd4d68}">
 		<relationship name="modules">
-			<destination>{097c1816-6e7d-4b0f-afc7-33ae9a169dbc}</destination>
+			<destination>{9f1fac18-9fb4-4a26-9ca7-b9cd46d8680f}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{29b5ac59-8709-4e5b-8f12-5c7cf6d74bea}">
@@ -111,22 +111,21 @@ Triggered: When the droid fires its laser</value>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{495d5bfe-2309-4438-9670-00aff7fabe0c}" />
-	<object class="SingleSound" id="{097c1816-6e7d-4b0f-afc7-33ae9a169dbc}">
+	<object class="SingleSound" id="{9f1fac18-9fb4-4a26-9ca7-b9cd46d8680f}">
 		<property name="length">
-			<value>0.60081632653061223</value>
-		</property>
-		<property name="pitch">
-			<value>-3.60000014</value>
+			<value>0.55795833333333333</value>
 		</property>
 		<relationship name="modulators">
-			<destination>{c267262e-2196-41aa-89b2-f8a32600450a}</destination>
-			<destination>{e37a0d37-f50d-496a-ad5b-b97ff34b2699}</destination>
+			<destination>{1ddef848-646c-413c-a676-8843a0cf7865}</destination>
 		</relationship>
 		<relationship name="audioFile">
-			<destination>{2390e801-4804-47b2-b9df-f00b7572c786}</destination>
+			<destination>{52fa9432-a7c0-4231-9387-d663dbc7890c}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{45e230e7-c724-4cbc-a181-e6da365850d2}">
+		<property name="volume">
+			<value>-19.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -151,20 +150,12 @@ Triggered: When the droid fires its laser</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{9ad842c3-172c-41ea-80a8-4bf11213356c}" />
-	<object class="RandomizerModulator" id="{c267262e-2196-41aa-89b2-f8a32600450a}">
-		<property name="nameOfPropertyBeingModulated">
-			<value>volume</value>
-		</property>
-		<property name="amount">
-			<value>5</value>
-		</property>
-	</object>
-	<object class="RandomizerModulator" id="{e37a0d37-f50d-496a-ad5b-b97ff34b2699}">
+	<object class="RandomizerModulator" id="{1ddef848-646c-413c-a676-8843a0cf7865}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>
 		</property>
 		<property name="amount">
-			<value>16</value>
+			<value>5.5</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{59fbab38-3d79-483a-ac40-85bf15d49eaf}">

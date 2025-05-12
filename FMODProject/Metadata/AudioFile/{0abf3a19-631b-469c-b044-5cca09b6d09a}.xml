@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{0abf3a19-631b-469c-b044-5cca09b6d09a}">
+		<property name="note">
+			<value>Torch_Swinging_ medium speeda 1.wav by kev_durr -- https://freesound.org/s/426207/ -- License: Attribution 4.0</value>
+		</property>
+		<property name="assetPath">
+			<value>Burning/Fire Woosh/Fire Woosh 7.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.30908333333333332</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4c43130b-9186-4fb6-9d65-a9acdac70927}</destination>
+		</relationship>
+	</object>
+</objects>

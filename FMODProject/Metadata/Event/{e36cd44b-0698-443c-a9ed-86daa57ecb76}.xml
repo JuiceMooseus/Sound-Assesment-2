@@ -8,14 +8,11 @@ Event Type: 3D
 Location: 0/Droid/DroidChitChatFMODEvent
 Triggered: Randomly every 15 - 20 seconds.</value>
 		</property>
-		<property name="color">
-			<value>Green</value>
-		</property>
 		<property name="name">
 			<value>ChitChat</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{0315ad32-2855-432c-8399-cc7b48807503}</destination>
@@ -82,13 +79,6 @@ Triggered: Randomly every 15 - 20 seconds.</value>
 	</object>
 	<object class="MarkerTrack" id="{b3ff1c01-3237-425d-92fa-da33c6b9ce6c}" />
 	<object class="GroupTrack" id="{05779b88-589d-4e86-9cec-f51dc52052e0}">
-		<relationship name="modules">
-			<destination>{095b02c4-2fb5-4de0-9a53-1221cdb8d1ec}</destination>
-			<destination>{d9afa55b-43b4-4ac4-871e-0816c7d35912}</destination>
-			<destination>{2997989b-89b0-4bb3-b0d6-5c7d409b248e}</destination>
-			<destination>{37301ce5-73ac-4a6a-90bc-6014a91bb699}</destination>
-			<destination>{7c8b5eff-5124-40a6-9553-f3a98bbc2a29}</destination>
-		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{50e74163-f3a3-4103-8220-08950ce08cb5}</destination>
 		</relationship>
@@ -99,13 +89,6 @@ Triggered: Randomly every 15 - 20 seconds.</value>
 		</relationship>
 	</object>
 	<object class="ParameterProxy" id="{2a88c98b-e694-4351-b726-47f559d00dd8}">
-		<relationship name="modules">
-			<destination>{095b02c4-2fb5-4de0-9a53-1221cdb8d1ec}</destination>
-			<destination>{d9afa55b-43b4-4ac4-871e-0816c7d35912}</destination>
-			<destination>{2997989b-89b0-4bb3-b0d6-5c7d409b248e}</destination>
-			<destination>{37301ce5-73ac-4a6a-90bc-6014a91bb699}</destination>
-			<destination>{7c8b5eff-5124-40a6-9553-f3a98bbc2a29}</destination>
-		</relationship>
 		<relationship name="preset">
 			<destination>{96d6cd3d-ea4f-4baa-b368-2f1d98940b31}</destination>
 		</relationship>
@@ -127,44 +110,10 @@ Triggered: Randomly every 15 - 20 seconds.</value>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{418c4fc3-461a-4cac-9e78-135153cbfe7f}" />
-	<object class="SingleSound" id="{095b02c4-2fb5-4de0-9a53-1221cdb8d1ec}">
-		<property name="start">
-			<value>4</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{9be1d92d-c3b3-415d-9476-75a65eeef8ce}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{d9afa55b-43b4-4ac4-871e-0816c7d35912}">
-		<property name="start">
-			<value>2</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{0037f44b-8fc5-4c22-b5db-c76dce35c3cc}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{2997989b-89b0-4bb3-b0d6-5c7d409b248e}">
-		<property name="start">
-			<value>1</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{bd448796-e0cd-44dd-8b63-cd0f7e41306d}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{37301ce5-73ac-4a6a-90bc-6014a91bb699}">
-		<property name="start">
-			<value>3</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{53333eb1-1e33-4117-a12f-091a9ad58873}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{7c8b5eff-5124-40a6-9553-f3a98bbc2a29}">
-		<relationship name="audioFile">
-			<destination>{aa735009-2f91-4d5c-9bdd-a01750be5abe}</destination>
-		</relationship>
-	</object>
 	<object class="EventMixerGroup" id="{50e74163-f3a3-4103-8220-08950ce08cb5}">
+		<property name="volume">
+			<value>-10</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>

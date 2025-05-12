@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{3c62f5e5-b7ac-48d9-901d-984a61f48dfb}">
+		<property name="note">
+			<value>Seeds shaking.wav by Riaan3ignite -- https://freesound.org/s/543090/ -- License: Attribution 4.0</value>
+		</property>
+		<property name="assetPath">
+			<value>Pickup (Seeds)/Seeds 5.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.66785416666666664</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4c43130b-9186-4fb6-9d65-a9acdac70927}</destination>
+		</relationship>
+	</object>
+</objects>

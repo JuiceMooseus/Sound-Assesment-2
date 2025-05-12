@@ -10,7 +10,7 @@ Event Location: 0/Droid/DroidRotationFMODEvent
 Triggered: On Start</value>
 		</property>
 		<property name="color">
-			<value>Green</value>
+			<value>Blue Light 1</value>
 		</property>
 		<property name="name">
 			<value>Rotation</value>
@@ -88,10 +88,10 @@ Triggered: On Start</value>
 	<object class="GroupTrack" id="{707045d7-7d75-40d8-a3c5-091b50a5f518}">
 		<relationship name="automationTracks">
 			<destination>{4c70cefd-9d45-446f-82a4-b3057b9e7743}</destination>
-			<destination>{f92a725c-af79-41c7-8877-d1a6aa064fcf}</destination>
+			<destination>{d3d664ae-2616-422e-bf5b-cea5151cfc9a}</destination>
 		</relationship>
 		<relationship name="modules">
-			<destination>{8bf1111d-6a21-4f11-8e27-0c004562949f}</destination>
+			<destination>{302cacf3-5f17-44d2-8685-1ab9c209fd42}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{89be0700-a025-4b51-97de-6608ef1b473e}</destination>
@@ -100,7 +100,7 @@ Triggered: On Start</value>
 	<object class="Timeline" id="{83df237a-1e23-487a-9f9e-d2dbb6753095}" />
 	<object class="ParameterProxy" id="{3c0d7056-a0d2-426d-b340-73a2bc6b5405}">
 		<relationship name="modules">
-			<destination>{8bf1111d-6a21-4f11-8e27-0c004562949f}</destination>
+			<destination>{302cacf3-5f17-44d2-8685-1ab9c209fd42}</destination>
 		</relationship>
 		<relationship name="preset">
 			<destination>{92a522fc-5c6c-47b2-985b-9ef43181a39a}</destination>
@@ -128,12 +128,15 @@ Triggered: On Start</value>
 			<destination>{0b6415cd-dc5d-4b15-9d37-010db30f48ad}</destination>
 		</relationship>
 	</object>
-	<object class="AutomationTrack" id="{f92a725c-af79-41c7-8877-d1a6aa064fcf}">
+	<object class="AutomationTrack" id="{d3d664ae-2616-422e-bf5b-cea5151cfc9a}">
 		<relationship name="automator">
-			<destination>{6b9314bf-e1d3-4e07-9e3e-deea5e72062f}</destination>
+			<destination>{bf94f5f5-81b6-488f-95ec-ede8f708f02a}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{8bf1111d-6a21-4f11-8e27-0c004562949f}">
+	<object class="SingleSound" id="{302cacf3-5f17-44d2-8685-1ab9c209fd42}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="length">
 			<value>301</value>
 		</property>
@@ -141,10 +144,10 @@ Triggered: On Start</value>
 			<value>true</value>
 		</property>
 		<relationship name="automators">
-			<destination>{6b9314bf-e1d3-4e07-9e3e-deea5e72062f}</destination>
+			<destination>{bf94f5f5-81b6-488f-95ec-ede8f708f02a}</destination>
 		</relationship>
 		<relationship name="audioFile">
-			<destination>{6fb5998a-aa81-4102-ac79-5f8a27f761c5}</destination>
+			<destination>{8731dfa7-24b2-4de7-a347-c75b524309c0}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{89be0700-a025-4b51-97de-6608ef1b473e}">
@@ -174,12 +177,12 @@ Triggered: On Start</value>
 	</object>
 	<object class="MixerBusPanner" id="{3d9566c9-1ad8-4dbc-b5e8-97e6c82c5779}" />
 	<object class="MixerBusFader" id="{b920756d-5ae0-488d-8002-cef67ccc0813}" />
-	<object class="Automator" id="{6b9314bf-e1d3-4e07-9e3e-deea5e72062f}">
+	<object class="Automator" id="{bf94f5f5-81b6-488f-95ec-ede8f708f02a}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>pitch</value>
 		</property>
 		<relationship name="automationCurves">
-			<destination>{be8e9a05-1894-4767-ad3f-91b38f5938b8}</destination>
+			<destination>{138f27dd-0334-42a5-b9d3-1fe65285e6a2}</destination>
 		</relationship>
 	</object>
 	<object class="Automator" id="{0b6415cd-dc5d-4b15-9d37-010db30f48ad}">
@@ -200,13 +203,13 @@ Triggered: On Start</value>
 	</object>
 	<object class="MixerBusPanner" id="{52d11eb4-b610-46df-bca9-2cbac44897d3}" />
 	<object class="MixerBusFader" id="{6f6f1f25-5119-4a72-a545-937ba407cc35}" />
-	<object class="AutomationCurve" id="{be8e9a05-1894-4767-ad3f-91b38f5938b8}">
+	<object class="AutomationCurve" id="{138f27dd-0334-42a5-b9d3-1fe65285e6a2}">
 		<relationship name="parameter">
 			<destination>{92a522fc-5c6c-47b2-985b-9ef43181a39a}</destination>
 		</relationship>
 		<relationship name="automationPoints">
-			<destination>{5d7f24f0-f247-4468-a8e8-acdb02f9f660}</destination>
-			<destination>{ee5c24f8-fd0d-44cb-8cc7-89ea64aa9e1d}</destination>
+			<destination>{79aafde6-7cb5-4d7b-ac38-6893bfeb302f}</destination>
+			<destination>{c07c0a30-8693-4ba9-bd0d-d9cfa7a619b5}</destination>
 		</relationship>
 	</object>
 	<object class="AutomationCurve" id="{f8c25325-0b16-4424-aab1-0d971f182567}">
@@ -242,20 +245,20 @@ Triggered: On Start</value>
 			<value>600</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{5d7f24f0-f247-4468-a8e8-acdb02f9f660}">
+	<object class="AutomationPoint" id="{79aafde6-7cb5-4d7b-ac38-6893bfeb302f}">
 		<property name="position">
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-3.5</value>
+			<value>0</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{ee5c24f8-fd0d-44cb-8cc7-89ea64aa9e1d}">
+	<object class="AutomationPoint" id="{c07c0a30-8693-4ba9-bd0d-d9cfa7a619b5}">
 		<property name="position">
-			<value>301</value>
+			<value>300.5057471264368</value>
 		</property>
 		<property name="value">
-			<value>7</value>
+			<value>15</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{2abbafc4-d3bc-4a80-9894-7ac4646a6bfd}">
@@ -287,7 +290,7 @@ Triggered: On Start</value>
 			<value>5</value>
 		</property>
 		<property name="value">
-			<value>-1</value>
+			<value>-16</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{d05375d9-aa93-4f7b-94f7-62b46a73da74}">
@@ -295,7 +298,7 @@ Triggered: On Start</value>
 			<value>301</value>
 		</property>
 		<property name="value">
-			<value>1</value>
+			<value>-10</value>
 		</property>
 	</object>
 </objects>

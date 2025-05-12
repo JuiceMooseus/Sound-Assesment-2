@@ -9,7 +9,7 @@ Location: Prefab PlayerSeedProjectile
 Triggered: When the droid fires a seed</value>
 		</property>
 		<property name="color">
-			<value>Green</value>
+			<value>Blue Light 1</value>
 		</property>
 		<property name="name">
 			<value>FireSeed</value>
@@ -89,7 +89,7 @@ Triggered: When the droid fires a seed</value>
 	<object class="MarkerTrack" id="{9737319f-e4b0-494b-843b-254c642c8c7b}" />
 	<object class="GroupTrack" id="{f5db1f8e-4bb4-4bbc-9b16-4237f2600d50}">
 		<relationship name="modules">
-			<destination>{5b0c5d56-259e-4327-8e27-ace0910bfcc4}</destination>
+			<destination>{67cf44f3-7371-49cb-8f88-975b1ed7e282}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{889ecc98-ddec-46a4-b660-4977223949ed}</destination>
@@ -97,7 +97,7 @@ Triggered: When the droid fires a seed</value>
 	</object>
 	<object class="Timeline" id="{2a7c138b-9f65-42fa-b5ad-8fd01bbdfeb0}">
 		<relationship name="modules">
-			<destination>{5b0c5d56-259e-4327-8e27-ace0910bfcc4}</destination>
+			<destination>{67cf44f3-7371-49cb-8f88-975b1ed7e282}</destination>
 		</relationship>
 	</object>
 	<object class="ActionSheet" id="{f67de96a-e458-41fb-99d3-da57834e82e0}">
@@ -123,15 +123,18 @@ Triggered: When the droid fires a seed</value>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{6be1623d-dcf1-4531-a863-f9860c46187c}" />
-	<object class="SingleSound" id="{5b0c5d56-259e-4327-8e27-ace0910bfcc4}">
+	<object class="SingleSound" id="{67cf44f3-7371-49cb-8f88-975b1ed7e282}">
 		<property name="length">
-			<value>0.61287981859410434</value>
+			<value>0.61287499999999995</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{0b9cb236-72c8-40c3-a52a-fda8fb37960d}</destination>
+			<destination>{fe20131f-38f3-4111-8735-1950e38f64d3}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{889ecc98-ddec-46a4-b660-4977223949ed}">
+		<property name="volume">
+			<value>-14.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>

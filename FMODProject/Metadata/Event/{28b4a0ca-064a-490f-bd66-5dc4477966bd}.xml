@@ -9,7 +9,7 @@ Location: 0/Droid/DroidAlertedFmodEvent
 Triggered: Upon getting to within a certain distance of the radiation zone</value>
 		</property>
 		<property name="color">
-			<value>Green</value>
+			<value>Blue Light 1</value>
 		</property>
 		<property name="name">
 			<value>Alerted</value>
@@ -83,7 +83,7 @@ Triggered: Upon getting to within a certain distance of the radiation zone</valu
 	<object class="MarkerTrack" id="{b21aa61f-3fee-4228-a3ad-710df3601420}" />
 	<object class="GroupTrack" id="{082ce161-4384-4edc-920f-ebd29818c959}">
 		<relationship name="modules">
-			<destination>{eb26a758-694d-4691-957a-4b2cc7ac6842}</destination>
+			<destination>{daf75c10-5977-4de4-9e3b-8e65af62c63f}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{d14e2f36-a7ee-4ae5-88a3-6a2a007b187d}</destination>
@@ -91,7 +91,7 @@ Triggered: Upon getting to within a certain distance of the radiation zone</valu
 	</object>
 	<object class="Timeline" id="{89202315-148c-4eca-a678-97c4bceab103}">
 		<relationship name="modules">
-			<destination>{eb26a758-694d-4691-957a-4b2cc7ac6842}</destination>
+			<destination>{daf75c10-5977-4de4-9e3b-8e65af62c63f}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{c12b658b-0b4b-4209-b762-2fb00a900959}</destination>
@@ -120,18 +120,18 @@ Triggered: Upon getting to within a certain distance of the radiation zone</valu
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ebc4f5c4-3898-464a-b435-c23b21ab23e9}" />
-	<object class="SingleSound" id="{eb26a758-694d-4691-957a-4b2cc7ac6842}">
+	<object class="SingleSound" id="{daf75c10-5977-4de4-9e3b-8e65af62c63f}">
 		<property name="length">
-			<value>3.504</value>
-		</property>
-		<property name="looping">
-			<value>true</value>
+			<value>3.4744166666666665</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{c3ea058e-425d-4743-817a-b6b64ee1541c}</destination>
+			<destination>{fdc2d2f8-df7d-4d76-916f-d321c84a5afa}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{d14e2f36-a7ee-4ae5-88a3-6a2a007b187d}">
+		<property name="volume">
+			<value>-11.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -150,7 +150,7 @@ Triggered: Upon getting to within a certain distance of the radiation zone</valu
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>3.504</value>
+			<value>3.4744166666666665</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{89202315-148c-4eca-a678-97c4bceab103}</destination>

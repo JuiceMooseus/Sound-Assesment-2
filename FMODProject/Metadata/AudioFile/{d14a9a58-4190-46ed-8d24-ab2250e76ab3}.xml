@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{d14a9a58-4190-46ed-8d24-ab2250e76ab3}">
+		<property name="note">
+			<value>Desert winds quiet by jgrzinich -- https://freesound.org/s/742236/ -- License: Attribution NonCommercial 4.0</value>
+		</property>
+		<property name="assetPath">
+			<value>Ambience/Weather/Wind/Wind Light.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>118.08860416666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4c43130b-9186-4fb6-9d65-a9acdac70927}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="EncodableAsset" id="{b4ea6546-b665-44fe-a3f8-f08946a0616f}">
 		<property name="assetPath">
-			<value>Robot/Fidget/</value>
+			<value>z.Old/Fidget/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{4c43130b-9186-4fb6-9d65-a9acdac70927}</destination>

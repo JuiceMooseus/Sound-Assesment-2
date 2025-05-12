@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{c145bfd6-965f-4dc2-930d-989381ab1eb7}">
+		<property name="note">
+			<value>Plastic Ikea Bag 02 by harveyjnz -- https://freesound.org/s/359142/ -- License: Attribution 4.0</value>
+		</property>
 		<property name="assetPath">
-			<value>tree grow.wav</value>
+			<value>Procedural (Tree)/Tree Growing.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

@@ -127,6 +127,9 @@ Triggered: When a seed is fired from the droid and impacts the ground</value>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{a8c6ac07-a040-4b21-88be-02bf78ebf5be}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="length">
 			<value>1.2</value>
 		</property>
@@ -212,6 +215,8 @@ Triggered: When a seed is fired from the droid and impacts the ground</value>
 		<relationship name="automationPoints">
 			<destination>{3488e251-6cb8-4a09-83d0-9412476c34c0}</destination>
 			<destination>{58b8b0a8-27eb-4937-8c6b-c9faf3132322}</destination>
+			<destination>{4a1ed528-6555-4a02-9906-e5660e2d3d87}</destination>
+			<destination>{4be22018-5473-4892-b0ac-4894957bbe1f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{0b0d9f07-f110-4c87-9d70-e1984c0a315d}" />
@@ -246,10 +251,10 @@ Triggered: When a seed is fired from the droid and impacts the ground</value>
 	</object>
 	<object class="AutomationPoint" id="{3488e251-6cb8-4a09-83d0-9412476c34c0}">
 		<property name="position">
-			<value>1.2</value>
+			<value>1.1900208333333333</value>
 		</property>
 		<property name="value">
-			<value>-13</value>
+			<value>-80</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{58b8b0a8-27eb-4937-8c6b-c9faf3132322}">
@@ -257,7 +262,23 @@ Triggered: When a seed is fired from the droid and impacts the ground</value>
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-25</value>
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{4a1ed528-6555-4a02-9906-e5660e2d3d87}">
+		<property name="position">
+			<value>1.1599999999999999</value>
+		</property>
+		<property name="value">
+			<value>-16</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{4be22018-5473-4892-b0ac-4894957bbe1f}">
+		<property name="position">
+			<value>0.01083743842364532</value>
+		</property>
+		<property name="value">
+			<value>-24.8999023</value>
 		</property>
 	</object>
 </objects>

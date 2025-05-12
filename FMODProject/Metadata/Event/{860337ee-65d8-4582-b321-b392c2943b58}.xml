@@ -15,7 +15,7 @@ Location: 0/Droid/DroidMovementFMODEvent
 Triggered: On Start</value>
 		</property>
 		<property name="color">
-			<value>Green</value>
+			<value>Blue Light 1</value>
 		</property>
 		<property name="name">
 			<value>Movement</value>
@@ -100,7 +100,7 @@ Triggered: On Start</value>
 			<destination>{d108941d-3147-4c1a-97b0-0363e3af01e8}</destination>
 		</relationship>
 		<relationship name="modules">
-			<destination>{6ccbefd7-5f81-4301-829d-1b0fdb37c81b}</destination>
+			<destination>{3efc9f85-d8af-4a09-9a89-416525bea204}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{272d4ee3-a4c2-4a9c-8015-6aacbf7426ab}</destination>
@@ -109,7 +109,7 @@ Triggered: On Start</value>
 	<object class="Timeline" id="{198a9c8f-551d-489f-b550-452a8ef6b07a}" />
 	<object class="ParameterProxy" id="{4bf5f6d8-2bc7-4c02-8162-a07f36f8e1e6}">
 		<relationship name="modules">
-			<destination>{6ccbefd7-5f81-4301-829d-1b0fdb37c81b}</destination>
+			<destination>{3efc9f85-d8af-4a09-9a89-416525bea204}</destination>
 		</relationship>
 		<relationship name="preset">
 			<destination>{1205418e-5eee-447c-9330-c2e714fe0227}</destination>
@@ -150,7 +150,7 @@ Triggered: On Start</value>
 			<destination>{198d3bab-197b-495b-ab4d-d09c799d863b}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{6ccbefd7-5f81-4301-829d-1b0fdb37c81b}">
+	<object class="SingleSound" id="{3efc9f85-d8af-4a09-9a89-416525bea204}">
 		<property name="length">
 			<value>200</value>
 		</property>
@@ -158,7 +158,7 @@ Triggered: On Start</value>
 			<value>true</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{5f6afe84-f165-453a-a0b5-021830e07b50}</destination>
+			<destination>{e94269de-8dbc-4647-bd5d-b6b1a18aeb79}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{272d4ee3-a4c2-4a9c-8015-6aacbf7426ab}">
@@ -256,7 +256,7 @@ Triggered: On Start</value>
 			<value>0.16420361247947454</value>
 		</property>
 		<property name="value">
-			<value>-30</value>
+			<value>-47.5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{8c3f4ac3-6062-4436-8333-efdc397878cc}">
@@ -264,7 +264,7 @@ Triggered: On Start</value>
 			<value>200</value>
 		</property>
 		<property name="value">
-			<value>-4</value>
+			<value>-14</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{a5a827a4-af63-4401-98e5-ae16c93bbf48}">
@@ -272,7 +272,7 @@ Triggered: On Start</value>
 			<value>16</value>
 		</property>
 		<property name="value">
-			<value>-17</value>
+			<value>-27.1428566</value>
 		</property>
 	</object>
 	<object class="Automator" id="{e2ebf86e-cd83-4b62-930b-8b5493784a19}">

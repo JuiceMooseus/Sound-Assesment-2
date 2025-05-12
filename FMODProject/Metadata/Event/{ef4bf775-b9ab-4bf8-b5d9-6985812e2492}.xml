@@ -93,7 +93,7 @@ Triggered: If Player or Cactus are ignited by GoldWorm.</value>
 	<object class="MarkerTrack" id="{d9077a0d-d7bf-49a3-87d7-68a2084afecf}" />
 	<object class="GroupTrack" id="{c9c3f15b-ba46-4ddc-a6f2-cf9ba493eaf9}">
 		<relationship name="modules">
-			<destination>{694cb775-545c-473a-9507-eb104cc0d4f0}</destination>
+			<destination>{4847fadd-edb0-430e-9f93-546f1fc651cb}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{d31cb94d-42c7-41ea-99e7-968e0b50272b}</destination>
@@ -101,7 +101,7 @@ Triggered: If Player or Cactus are ignited by GoldWorm.</value>
 	</object>
 	<object class="GroupTrack" id="{038e1d09-b181-42f1-9531-6b80a8b5d9fd}">
 		<relationship name="modules">
-			<destination>{76a17276-2a5e-4dc9-9702-ebcaa1874793}</destination>
+			<destination>{2899958d-f9ae-4082-9327-438d902ce627}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{70919772-b732-4074-b878-ad2bcdc023ef}</destination>
@@ -117,9 +117,9 @@ Triggered: If Player or Cactus are ignited by GoldWorm.</value>
 	</object>
 	<object class="Timeline" id="{cdcdd685-2392-478b-a7c9-4126a73710d5}">
 		<relationship name="modules">
-			<destination>{694cb775-545c-473a-9507-eb104cc0d4f0}</destination>
-			<destination>{76a17276-2a5e-4dc9-9702-ebcaa1874793}</destination>
 			<destination>{977bc677-07eb-468d-9e9f-0c5a215d0046}</destination>
+			<destination>{2899958d-f9ae-4082-9327-438d902ce627}</destination>
+			<destination>{4847fadd-edb0-430e-9f93-546f1fc651cb}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{f87d70a6-aaa7-499a-85d5-d8b37ef84df4}</destination>
@@ -150,15 +150,18 @@ Triggered: If Player or Cactus are ignited by GoldWorm.</value>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4803abf2-44ec-4f4f-a32c-6b9e00f9d96e}" />
-	<object class="SingleSound" id="{694cb775-545c-473a-9507-eb104cc0d4f0}">
+	<object class="SingleSound" id="{4847fadd-edb0-430e-9f93-546f1fc651cb}">
 		<property name="start">
 			<value>2.5</value>
 		</property>
 		<property name="length">
-			<value>20.783999999999999</value>
+			<value>20.751708333333333</value>
+		</property>
+		<property name="looping">
+			<value>true</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{6cfff12d-a005-4af7-82f6-9d3c6a2ccddd}</destination>
+			<destination>{660714e2-e154-428f-84bf-61072fd14080}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{d31cb94d-42c7-41ea-99e7-968e0b50272b}">
@@ -175,15 +178,15 @@ Triggered: If Player or Cactus are ignited by GoldWorm.</value>
 			<destination>{33318255-fc2b-4826-bf4c-176f0eef34b0}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{76a17276-2a5e-4dc9-9702-ebcaa1874793}">
+	<object class="SingleSound" id="{2899958d-f9ae-4082-9327-438d902ce627}">
 		<property name="isAsync">
 			<value>true</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>2.1825416666666668</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{ee432964-7c6c-4ed2-a752-784dbd125394}</destination>
+			<destination>{b8e2bafb-9070-4f14-83ca-272be58948eb}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{70919772-b732-4074-b878-ad2bcdc023ef}">
@@ -205,14 +208,14 @@ Triggered: If Player or Cactus are ignited by GoldWorm.</value>
 			<value>0.57599999999999996</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{47d061fd-5674-45d7-84e2-8e19ca000c51}</destination>
-			<destination>{08901e1d-54c3-4e8d-94a9-66decf2e89b8}</destination>
-			<destination>{d045693d-edf7-4cf6-bb17-d86c9f1b0190}</destination>
-			<destination>{bf7c656f-decd-4621-892d-6b9dad6a39f1}</destination>
-			<destination>{db54b4c7-a638-4b72-a1cb-6583416a9c88}</destination>
-			<destination>{978136c0-5034-4050-a31d-7cc2047f29b2}</destination>
-			<destination>{d2a108dc-58d0-42de-8abd-4096be928efb}</destination>
-			<destination>{d99362cc-9c5c-428e-ae03-dba08e64207c}</destination>
+			<destination>{e9fc1437-437c-4142-b631-67ad8f82de99}</destination>
+			<destination>{b5d77f3f-bd67-4ecf-8134-0ba699d162ed}</destination>
+			<destination>{a194a8be-bb5d-4490-8fcf-3bc9185bd18d}</destination>
+			<destination>{f010cf2b-af9b-4ba3-9189-ba0475c164b5}</destination>
+			<destination>{63548691-a2b8-4e0a-bb22-fb1b97c2ded4}</destination>
+			<destination>{1535675c-7b52-4b2c-8da3-555b327a8361}</destination>
+			<destination>{7cb92b93-c6a9-4bd8-b566-70726d5948a7}</destination>
+			<destination>{6d7f3347-3612-4e89-ad13-95612b077be7}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{319a4d5c-42bc-4742-acc5-b85ac2c92298}">
@@ -259,7 +262,7 @@ Triggered: If Player or Cactus are ignited by GoldWorm.</value>
 	</object>
 	<object class="TransitionMarker" id="{706ae34d-52d7-4a7e-a853-5efbc16365b1}">
 		<property name="position">
-			<value>1.4500000000000002</value>
+			<value>1</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{cdcdd685-2392-478b-a7c9-4126a73710d5}</destination>
@@ -295,44 +298,44 @@ Triggered: If Player or Cactus are ignited by GoldWorm.</value>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e23200cc-2638-4c68-a6bb-8a4705eb462a}" />
-	<object class="SingleSound" id="{47d061fd-5674-45d7-84e2-8e19ca000c51}">
+	<object class="SingleSound" id="{e9fc1437-437c-4142-b631-67ad8f82de99}">
 		<relationship name="audioFile">
-			<destination>{bdd0d258-23ef-449e-a7b7-a192751f579b}</destination>
+			<destination>{d9655e86-0184-491a-a405-d2693b8f4998}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{08901e1d-54c3-4e8d-94a9-66decf2e89b8}">
+	<object class="SingleSound" id="{b5d77f3f-bd67-4ecf-8134-0ba699d162ed}">
 		<relationship name="audioFile">
-			<destination>{54f460f7-2426-4462-bbfe-803a12aa5398}</destination>
+			<destination>{a5e12342-4b94-4cab-a163-8649fa8603c2}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{d045693d-edf7-4cf6-bb17-d86c9f1b0190}">
+	<object class="SingleSound" id="{a194a8be-bb5d-4490-8fcf-3bc9185bd18d}">
 		<relationship name="audioFile">
-			<destination>{baeec84e-4961-4315-85b5-7c34c038e3ac}</destination>
+			<destination>{bc372138-c87b-4f7a-9431-6f4e4fd9f70c}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{bf7c656f-decd-4621-892d-6b9dad6a39f1}">
+	<object class="SingleSound" id="{f010cf2b-af9b-4ba3-9189-ba0475c164b5}">
 		<relationship name="audioFile">
-			<destination>{29974972-97f8-4996-bb85-d8880cee0d07}</destination>
+			<destination>{4a598a41-d8be-46b9-880e-786684663d43}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{db54b4c7-a638-4b72-a1cb-6583416a9c88}">
+	<object class="SingleSound" id="{63548691-a2b8-4e0a-bb22-fb1b97c2ded4}">
 		<relationship name="audioFile">
-			<destination>{279f0627-25d2-4dbb-8c8e-e4274ec669c9}</destination>
+			<destination>{13df8009-401a-43f1-b51d-704a7b6a344b}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{978136c0-5034-4050-a31d-7cc2047f29b2}">
+	<object class="SingleSound" id="{1535675c-7b52-4b2c-8da3-555b327a8361}">
 		<relationship name="audioFile">
-			<destination>{7807a74e-025e-4d3b-8134-3820314b127a}</destination>
+			<destination>{7b0d79d1-52d2-400e-897e-4c2dee955f52}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{d2a108dc-58d0-42de-8abd-4096be928efb}">
+	<object class="SingleSound" id="{7cb92b93-c6a9-4bd8-b566-70726d5948a7}">
 		<relationship name="audioFile">
-			<destination>{409e53e3-af57-4d69-bd75-153599cdab83}</destination>
+			<destination>{0abf3a19-631b-469c-b044-5cca09b6d09a}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{d99362cc-9c5c-428e-ae03-dba08e64207c}">
+	<object class="SingleSound" id="{6d7f3347-3612-4e89-ad13-95612b077be7}">
 		<relationship name="audioFile">
-			<destination>{098df56e-8cbd-46bc-9339-44ed74fc9e60}</destination>
+			<destination>{8df48d1d-0d34-4634-bc67-d1e3008e02d4}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{8f4d3fd5-1906-4497-987d-2f32d8dfd21e}">
