@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{68115c49-da48-4b7f-96f6-b567116fde93}">
+		<property name="note">
+			<value>EQCloseLightningBolts20August2007.mp3 by csengeri -- https://freesound.org/s/39945/ -- License: Attribution 4.0</value>
+		</property>
+		<property name="assetPath">
+			<value>Weather/lightning 1.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>5.6424489795918369</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4c43130b-9186-4fb6-9d65-a9acdac70927}</destination>
+		</relationship>
+	</object>
+</objects>

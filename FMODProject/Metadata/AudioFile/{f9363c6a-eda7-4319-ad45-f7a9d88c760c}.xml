@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{f9363c6a-eda7-4319-ad45-f7a9d88c760c}">
+		<property name="note">
+			<value>Plastic Ikea Bag 02 by harveyjnz -- https://freesound.org/s/359142/ -- License: Attribution 4.0</value>
+		</property>
+		<property name="assetPath">
+			<value>tree growing.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>50.573061224489798</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4c43130b-9186-4fb6-9d65-a9acdac70927}</destination>
+		</relationship>
+	</object>
+</objects>
