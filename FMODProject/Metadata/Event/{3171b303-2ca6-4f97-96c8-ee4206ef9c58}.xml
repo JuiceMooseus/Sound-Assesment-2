@@ -77,7 +77,7 @@ Triggered: When the droid fires its laser</value>
 			<value>30</value>
 		</property>
 		<property name="maximumDistance">
-			<value>80</value>
+			<value>100</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{f92b0aad-d4a3-4896-aaea-e447fb044443}" />
@@ -113,7 +113,7 @@ Triggered: When the droid fires its laser</value>
 	<object class="MixerBusPanner" id="{495d5bfe-2309-4438-9670-00aff7fabe0c}" />
 	<object class="SingleSound" id="{9f1fac18-9fb4-4a26-9ca7-b9cd46d8680f}">
 		<property name="length">
-			<value>0.55795833333333333</value>
+			<value>0.55795918367346942</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{1ddef848-646c-413c-a676-8843a0cf7865}</destination>
@@ -124,7 +124,7 @@ Triggered: When the droid fires its laser</value>
 	</object>
 	<object class="EventMixerGroup" id="{45e230e7-c724-4cbc-a181-e6da365850d2}">
 		<property name="volume">
-			<value>-19.5</value>
+			<value>-3</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -162,6 +162,7 @@ Triggered: When the droid fires its laser</value>
 		<relationship name="effects">
 			<destination>{510424e7-68df-4a52-ac41-2ccd2a5a7f25}</destination>
 			<destination>{2dfd2402-bb01-41f9-83d5-e95c58e6365e}</destination>
+			<destination>{52a80b8f-52dc-4f8e-aea6-dedd598bbf99}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{6bd0dd51-f00a-49ea-a8e5-8117389c6503}" />
@@ -177,6 +178,11 @@ Triggered: When the droid fires its laser</value>
 		<relationship name="modulators">
 			<destination>{6081a9d0-bb9a-4136-b0bd-79c0d061f1ce}</destination>
 		</relationship>
+	</object>
+	<object class="SpatialiserEffect" id="{52a80b8f-52dc-4f8e-aea6-dedd598bbf99}">
+		<property name="distanceRolloffType">
+			<value>1</value>
+		</property>
 	</object>
 	<object class="RandomizerModulator" id="{6081a9d0-bb9a-4136-b0bd-79c0d061f1ce}">
 		<property name="nameOfPropertyBeingModulated">

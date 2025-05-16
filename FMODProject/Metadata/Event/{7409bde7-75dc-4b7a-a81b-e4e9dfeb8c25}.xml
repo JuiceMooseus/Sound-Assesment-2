@@ -11,6 +11,9 @@ Location: Prefab GoldSandworm/Bone01/Bone02/Bone03/Bone04/FMODGoldWormPopDownSou
 Triggered: When the Goldworm goes underground
 </value>
 		</property>
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="name">
 			<value>GoldWormPopDown</value>
 		</property>
@@ -88,11 +91,18 @@ Triggered: When the Goldworm goes underground
 	</object>
 	<object class="MarkerTrack" id="{9269e26f-1349-4dd7-9381-718e38115802}" />
 	<object class="GroupTrack" id="{ad383260-8136-4be6-95fe-19cdbd9167b7}">
+		<relationship name="modules">
+			<destination>{6a057294-0c3f-4c2b-ba6d-518cbd33a6ad}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{29c8b990-98cf-47d1-8e77-fefdea3b3f68}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{55687287-df90-458f-876f-3acf0dedf7dc}" />
+	<object class="Timeline" id="{55687287-df90-458f-876f-3acf0dedf7dc}">
+		<relationship name="modules">
+			<destination>{6a057294-0c3f-4c2b-ba6d-518cbd33a6ad}</destination>
+		</relationship>
+	</object>
 	<object class="ActionSheet" id="{b6dd41ec-96a9-4a92-9e64-83f7e38b4e1e}">
 		<relationship name="modules">
 			<destination>{855901bf-db61-4768-89ff-72bc246d4b58}</destination>
@@ -116,6 +126,14 @@ Triggered: When the Goldworm goes underground
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ee228e6c-09d5-426e-9a89-66123e1ee911}" />
+	<object class="SingleSound" id="{6a057294-0c3f-4c2b-ba6d-518cbd33a6ad}">
+		<property name="length">
+			<value>2.0599092970521542</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{82cb227a-e177-4d48-8c19-8cbb5a6d521e}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{29c8b990-98cf-47d1-8e77-fefdea3b3f68}">
 		<property name="name">
 			<value>Audio 1</value>
@@ -133,6 +151,7 @@ Triggered: When the Goldworm goes underground
 	<object class="MixerBusEffectChain" id="{72518752-755d-4bba-ba57-dc2e812cef18}">
 		<relationship name="effects">
 			<destination>{369181f0-101a-40f7-b7f0-4f93412550c9}</destination>
+			<destination>{80c36fd9-67bb-4833-8139-05c453263e70}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{9bf49f88-31cf-4618-80a5-19383cb3d822}">
@@ -144,9 +163,16 @@ Triggered: When the Goldworm goes underground
 	<object class="MixerBusEffectChain" id="{b937cabd-cac2-4411-959f-cef674b2ff79}">
 		<relationship name="effects">
 			<destination>{ba778df4-8293-4c3f-8757-b31a756f28ab}</destination>
+			<destination>{befb99a9-b3be-467e-b8b7-756fb4d472d5}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{bdf63907-296f-49e8-85da-b914b48d7e57}" />
 	<object class="MixerBusFader" id="{369181f0-101a-40f7-b7f0-4f93412550c9}" />
+	<object class="SpatialiserEffect" id="{80c36fd9-67bb-4833-8139-05c453263e70}" />
 	<object class="MixerBusFader" id="{ba778df4-8293-4c3f-8757-b31a756f28ab}" />
+	<object class="PitchShifterEffect" id="{befb99a9-b3be-467e-b8b7-756fb4d472d5}">
+		<property name="pitch">
+			<value>0.599999964</value>
+		</property>
+	</object>
 </objects>

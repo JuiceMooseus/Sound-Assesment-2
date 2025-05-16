@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{3933b11f-c065-498a-ad04-4100c2ebe119}">
+		<property name="note">
+			<value>CyclopsMonster by jonccox -- https://freesound.org/s/191809/ -- License: Creative Commons 0</value>
+		</property>
+		<property name="assetPath">
+			<value>Enemy/Damaged/Worm Roar 2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>3.1544583333333334</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4c43130b-9186-4fb6-9d65-a9acdac70927}</destination>
+		</relationship>
+	</object>
+</objects>

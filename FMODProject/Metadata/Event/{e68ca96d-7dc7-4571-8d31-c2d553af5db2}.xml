@@ -8,6 +8,9 @@ Event Type: 3D
 Location: 0/Hive
 Triggered: On Start</value>
 		</property>
+		<property name="color">
+			<value>Red Light 1</value>
+		</property>
 		<property name="name">
 			<value>AntHive</value>
 		</property>
@@ -85,11 +88,18 @@ Triggered: On Start</value>
 	</object>
 	<object class="MarkerTrack" id="{1c80dec4-6b27-413b-881a-28d80ad9b0ec}" />
 	<object class="GroupTrack" id="{f41a4cea-c1a6-4b60-8e79-b38397796c0d}">
+		<relationship name="modules">
+			<destination>{e591a926-eecd-4a1b-94e6-f21a3dfff0fe}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{680332a7-ed8a-4de8-b471-920c98a5abd1}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{6ffda9de-e470-4084-9f13-3d9393e60f77}" />
+	<object class="Timeline" id="{6ffda9de-e470-4084-9f13-3d9393e60f77}">
+		<relationship name="modules">
+			<destination>{e591a926-eecd-4a1b-94e6-f21a3dfff0fe}</destination>
+		</relationship>
+	</object>
 	<object class="ActionSheet" id="{8abad0e0-a177-4501-9263-c5e64d609bf1}">
 		<relationship name="modules">
 			<destination>{e1e0c4f1-b576-49fb-897a-616e5efacb09}</destination>
@@ -113,7 +123,21 @@ Triggered: On Start</value>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{bdddacb8-a004-494c-a049-3a8c4eb1228a}" />
+	<object class="SingleSound" id="{e591a926-eecd-4a1b-94e6-f21a3dfff0fe}">
+		<property name="length">
+			<value>247.2475283446712</value>
+		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{feccf39a-26f9-4d08-80e3-3182cede7690}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{680332a7-ed8a-4de8-b471-920c98a5abd1}">
+		<property name="volume">
+			<value>-19.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -133,6 +157,7 @@ Triggered: On Start</value>
 	<object class="MixerBusEffectChain" id="{74682179-e785-4ea7-92af-8e490c32e9ad}">
 		<relationship name="effects">
 			<destination>{491e80c9-1f78-4b1e-bd63-b59c1d89336e}</destination>
+			<destination>{dc8ada72-dcb4-4afd-b5ab-afdd5ebb41ad}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e2f12ca5-1cf1-400c-94c1-fea2a43e7a18}">
@@ -169,6 +194,7 @@ Triggered: On Start</value>
 	</object>
 	<object class="MixerBusPanner" id="{56b6e706-f018-401c-955a-9c6aebd22c50}" />
 	<object class="MixerBusFader" id="{491e80c9-1f78-4b1e-bd63-b59c1d89336e}" />
+	<object class="SpatialiserEffect" id="{dc8ada72-dcb4-4afd-b5ab-afdd5ebb41ad}" />
 	<object class="MixerBusFader" id="{8af4cda7-a80c-4794-8bce-cf6ce8294aff}" />
 	<object class="HighpassEffect" id="{33e57be9-20eb-4bde-8a36-cc4b3214b545}">
 		<property name="cutoff">

@@ -208,6 +208,7 @@ Triggered: Upon getting to within a certain distance to the radiation zone</valu
 		<relationship name="automationPoints">
 			<destination>{751f1ced-38f4-4b87-b831-7b885a42f37c}</destination>
 			<destination>{300f8ed0-f643-4d8b-925f-641701d2aa0d}</destination>
+			<destination>{1519282a-c3db-4218-96f5-0f42950ca90c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{66422378-d609-4ff2-a39d-ed8016a0ccd9}" />
@@ -278,7 +279,10 @@ Triggered: Upon getting to within a certain distance to the radiation zone</valu
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-16</value>
+			<value>-29</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.490746707</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{300f8ed0-f643-4d8b-925f-641701d2aa0d}">
@@ -286,7 +290,15 @@ Triggered: Upon getting to within a certain distance to the radiation zone</valu
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>10</value>
+			<value>-5</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{1519282a-c3db-4218-96f5-0f42950ca90c}">
+		<property name="position">
+			<value>0.14999999999999999</value>
+		</property>
+		<property name="value">
+			<value>-12</value>
 		</property>
 	</object>
 	<object class="Automator" id="{6fb6e881-2cc4-45d7-aada-ab6cf9a38a29}">
@@ -321,6 +333,7 @@ Triggered: Upon getting to within a certain distance to the radiation zone</valu
 		<relationship name="automationPoints">
 			<destination>{7978e8f7-cab3-4f3c-841c-f457efded6df}</destination>
 			<destination>{e1397c14-0950-4575-9104-7d59da10fe48}</destination>
+			<destination>{d530a5a3-277a-40a2-9198-18e3f4bf3736}</destination>
 		</relationship>
 	</object>
 	<object class="AutomationPoint" id="{a7658538-bb54-474a-96f7-12a4cefa069e}">
@@ -344,7 +357,7 @@ Triggered: Upon getting to within a certain distance to the radiation zone</valu
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>6</value>
+			<value>14</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{e1397c14-0950-4575-9104-7d59da10fe48}">
@@ -353,6 +366,17 @@ Triggered: Upon getting to within a certain distance to the radiation zone</valu
 		</property>
 		<property name="value">
 			<value>0.600000024</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.211918876</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{d530a5a3-277a-40a2-9198-18e3f4bf3736}">
+		<property name="position">
+			<value>0.17999999999999999</value>
+		</property>
+		<property name="value">
+			<value>5</value>
 		</property>
 	</object>
 </objects>

@@ -9,7 +9,7 @@ Location: 0/SeedPile
 Event Triggered: On collision</value>
 		</property>
 		<property name="color">
-			<value>Blue</value>
+			<value>Purple Light 1</value>
 		</property>
 		<property name="name">
 			<value>SeedPickup</value>
@@ -141,7 +141,7 @@ Event Triggered: On collision</value>
 	</object>
 	<object class="EventMixerGroup" id="{84e6b92f-6e0d-445a-b5a5-fe09da712b03}">
 		<property name="volume">
-			<value>-27</value>
+			<value>-21</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>

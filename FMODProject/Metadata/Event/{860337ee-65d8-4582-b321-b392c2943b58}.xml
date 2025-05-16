@@ -256,7 +256,7 @@ Triggered: On Start</value>
 			<value>0.16420361247947454</value>
 		</property>
 		<property name="value">
-			<value>-47.5</value>
+			<value>-38</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{8c3f4ac3-6062-4436-8333-efdc397878cc}">
@@ -264,15 +264,15 @@ Triggered: On Start</value>
 			<value>200</value>
 		</property>
 		<property name="value">
-			<value>-14</value>
+			<value>5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{a5a827a4-af63-4401-98e5-ae16c93bbf48}">
 		<property name="position">
-			<value>16</value>
+			<value>40</value>
 		</property>
 		<property name="value">
-			<value>-27.1428566</value>
+			<value>-8</value>
 		</property>
 	</object>
 	<object class="Automator" id="{e2ebf86e-cd83-4b62-930b-8b5493784a19}">
@@ -319,10 +319,10 @@ Triggered: On Start</value>
 	</object>
 	<object class="AutomationPoint" id="{8acc7a8f-82c1-4840-bf2f-2cc4bbf1f37a}">
 		<property name="position">
-			<value>198.85057471264366</value>
+			<value>200</value>
 		</property>
 		<property name="value">
-			<value>16</value>
+			<value>5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{5b9b21e3-2cc7-4840-bf65-e7da23b4d607}">

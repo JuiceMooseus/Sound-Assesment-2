@@ -11,7 +11,7 @@ Location: Prefab Fire01
 Triggered: If Player or Cactus are ignited by GoldWorm.</value>
 		</property>
 		<property name="color">
-			<value>Green</value>
+			<value>Yellow</value>
 		</property>
 		<property name="name">
 			<value>OnFire</value>

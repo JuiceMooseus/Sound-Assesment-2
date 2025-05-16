@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{8f9056b6-2acb-4585-b2d6-3f0c69c9f1ea}">
+		<property name="note">
+			<value>Recorded in the foley room with River</value>
+		</property>
+		<property name="assetPath">
+			<value>Projectiles (Player Hit)/Sand/Sand Hit 4.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.52920634920634924</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4c43130b-9186-4fb6-9d65-a9acdac70927}</destination>
+		</relationship>
+	</object>
+</objects>

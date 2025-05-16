@@ -21,7 +21,7 @@ Event Type: 2D
 Location: 0/Managers/GameManager/GameManager/cs (instance)</value>
 		</property>
 		<property name="color">
-			<value>Magenta Light 1</value>
+			<value>Red</value>
 		</property>
 		<property name="name">
 			<value>Menu</value>
@@ -235,6 +235,9 @@ Location: 0/Managers/GameManager/GameManager/cs (instance)</value>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{795865c6-0a0e-4928-b785-6ae54e1f94e1}">
+		<property name="volume">
+			<value>-16.5</value>
+		</property>
 		<property name="name">
 			<value>Update</value>
 		</property>

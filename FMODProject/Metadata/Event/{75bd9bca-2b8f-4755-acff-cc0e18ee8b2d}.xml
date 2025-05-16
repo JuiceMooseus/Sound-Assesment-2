@@ -16,7 +16,7 @@ Triggered: On Start</value>
 			<value>Rotation</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{0315ad32-2855-432c-8399-cc7b48807503}</destination>
@@ -258,7 +258,7 @@ Triggered: On Start</value>
 			<value>300.5057471264368</value>
 		</property>
 		<property name="value">
-			<value>15</value>
+			<value>10</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{2abbafc4-d3bc-4a80-9894-7ac4646a6bfd}">
@@ -287,10 +287,10 @@ Triggered: On Start</value>
 	</object>
 	<object class="AutomationPoint" id="{ece606fb-8ec7-4f5e-944e-5693be970175}">
 		<property name="position">
-			<value>5</value>
+			<value>65</value>
 		</property>
 		<property name="value">
-			<value>-16</value>
+			<value>-5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{d05375d9-aa93-4f7b-94f7-62b46a73da74}">
@@ -298,7 +298,7 @@ Triggered: On Start</value>
 			<value>301</value>
 		</property>
 		<property name="value">
-			<value>-10</value>
+			<value>5</value>
 		</property>
 	</object>
 </objects>

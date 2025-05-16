@@ -10,6 +10,9 @@ Event Type: 3D
 Location: Prefab GoldSandworm/Bone01/Bone02/Bone03/Bone04/FMODGoldWormDeathSound
 Triggered: When the Goldworm has taken a certain amount of damage</value>
 		</property>
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="name">
 			<value>GoldWormDie</value>
 		</property>
@@ -81,11 +84,18 @@ Triggered: When the Goldworm has taken a certain amount of damage</value>
 	</object>
 	<object class="MarkerTrack" id="{a4ef2ad5-76ba-4a06-aa3c-96983e1ecf83}" />
 	<object class="GroupTrack" id="{64ad81de-3cee-450d-a4d1-99c98c495040}">
+		<relationship name="modules">
+			<destination>{569923e3-934e-48af-b724-d76724be7bac}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{1be30381-2847-4e90-8c1d-1432338458a1}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{7b5ce499-3224-4782-8a78-7cfcf258b727}" />
+	<object class="Timeline" id="{7b5ce499-3224-4782-8a78-7cfcf258b727}">
+		<relationship name="modules">
+			<destination>{569923e3-934e-48af-b724-d76724be7bac}</destination>
+		</relationship>
+	</object>
 	<object class="ActionSheet" id="{22ab1faf-39b6-4442-adf1-9a1056963228}">
 		<relationship name="modules">
 			<destination>{ad122916-37a7-403b-a2d1-98dae6e2b04f}</destination>
@@ -109,7 +119,18 @@ Triggered: When the Goldworm has taken a certain amount of damage</value>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{158e5c6c-8f21-4704-a6e4-d98475e7233e}" />
+	<object class="SingleSound" id="{569923e3-934e-48af-b724-d76724be7bac}">
+		<property name="length">
+			<value>5.7986250000000004</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{1822d465-ac6d-472c-9820-6bbaa4bf1c86}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{1be30381-2847-4e90-8c1d-1432338458a1}">
+		<property name="volume">
+			<value>4.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -126,6 +147,7 @@ Triggered: When the Goldworm has taken a certain amount of damage</value>
 	<object class="MixerBusEffectChain" id="{d391578d-634a-45a8-9d16-cc6bb29aad2d}">
 		<relationship name="effects">
 			<destination>{9eba811f-8578-4925-b924-b8898b696fbe}</destination>
+			<destination>{fd7317b4-c7c3-4aae-bef0-e653f94d1c16}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{cdd68499-7e3f-4f23-846f-5e50d09112d8}">
@@ -137,9 +159,28 @@ Triggered: When the Goldworm has taken a certain amount of damage</value>
 	<object class="MixerBusEffectChain" id="{1c1e9515-a82b-4280-9f4f-72f5c756054b}">
 		<relationship name="effects">
 			<destination>{61b61725-685f-4b6c-883f-7531cd34cdbd}</destination>
+			<destination>{f681dcd1-41ba-47c9-8011-bf1ad8175726}</destination>
+			<destination>{08a65532-b8b7-4447-8905-c18b5c4fbc83}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{40dac86e-5175-4b76-87a2-af94f7c765b5}" />
 	<object class="MixerBusFader" id="{9eba811f-8578-4925-b924-b8898b696fbe}" />
+	<object class="SpatialiserEffect" id="{fd7317b4-c7c3-4aae-bef0-e653f94d1c16}" />
 	<object class="MixerBusFader" id="{61b61725-685f-4b6c-883f-7531cd34cdbd}" />
+	<object class="SFXReverbEffect" id="{f681dcd1-41ba-47c9-8011-bf1ad8175726}">
+		<property name="decayTime">
+			<value>8500</value>
+		</property>
+		<property name="wetLevel">
+			<value>-1</value>
+		</property>
+	</object>
+	<object class="MultibandEqEffect" id="{08a65532-b8b7-4447-8905-c18b5c4fbc83}">
+		<property name="frequencyA">
+			<value>623.349548</value>
+		</property>
+		<property name="qualityA">
+			<value>0.518620729</value>
+		</property>
+	</object>
 </objects>

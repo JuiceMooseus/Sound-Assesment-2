@@ -10,6 +10,9 @@ Event Type: 3D
 Location: Prefab GoldSandworm/Bone01/Bone02/Bone03/Bone04/FMODGoldWormDamagedSound
 Triggered: When the Goldworm takes a certain number of laser hits</value>
 		</property>
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="name">
 			<value>GoldWormDamaged</value>
 		</property>
@@ -87,11 +90,18 @@ Triggered: When the Goldworm takes a certain number of laser hits</value>
 	</object>
 	<object class="MarkerTrack" id="{dd34375f-4564-4b82-a186-db4d6c788765}" />
 	<object class="GroupTrack" id="{4e55a8b7-968e-4e2e-9466-d2ba854f2fa5}">
+		<relationship name="modules">
+			<destination>{1253cec1-9a2f-4ef0-a55f-5e22f0647650}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{4bd2fc3f-e7ff-4260-afce-064cf6bbc90d}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{bd1a7e51-4991-4009-9f20-4de872be4500}" />
+	<object class="Timeline" id="{bd1a7e51-4991-4009-9f20-4de872be4500}">
+		<relationship name="modules">
+			<destination>{1253cec1-9a2f-4ef0-a55f-5e22f0647650}</destination>
+		</relationship>
+	</object>
 	<object class="ActionSheet" id="{4a3f4a55-2d67-4a2a-8710-af388f3e3575}">
 		<relationship name="modules">
 			<destination>{838e2813-e321-4157-8817-3aebdf14bdd2}</destination>
@@ -115,7 +125,27 @@ Triggered: When the Goldworm takes a certain number of laser hits</value>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{6942d935-da3e-4025-8ae9-36623406b893}" />
+	<object class="MultiSound" id="{1253cec1-9a2f-4ef0-a55f-5e22f0647650}">
+		<property name="length">
+			<value>3.9885416666666669</value>
+		</property>
+		<property name="pitch">
+			<value>-2.79999995</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{117434dd-be02-4380-9473-556d7fea686d}</destination>
+		</relationship>
+		<relationship name="sounds">
+			<destination>{6494952a-a82a-4339-9604-f4e72e5c6bfa}</destination>
+			<destination>{739cdca4-9d67-4b95-913d-f2fcba256a43}</destination>
+			<destination>{b2d8dd59-02da-4b72-b27e-4f1744d14fb3}</destination>
+			<destination>{94b3708c-d04a-4987-a750-0979bc7242de}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{4bd2fc3f-e7ff-4260-afce-064cf6bbc90d}">
+		<property name="volume">
+			<value>-6.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -140,12 +170,42 @@ Triggered: When the Goldworm takes a certain number of laser hits</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{81aad458-15df-4633-8eae-25ba429b76b3}" />
+	<object class="RandomizerModulator" id="{117434dd-be02-4380-9473-556d7fea686d}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>9.5</value>
+		</property>
+	</object>
+	<object class="SingleSound" id="{6494952a-a82a-4339-9604-f4e72e5c6bfa}">
+		<relationship name="audioFile">
+			<destination>{a13d9311-91af-46b7-b581-ec999c626a03}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{739cdca4-9d67-4b95-913d-f2fcba256a43}">
+		<relationship name="audioFile">
+			<destination>{3933b11f-c065-498a-ad04-4100c2ebe119}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{b2d8dd59-02da-4b72-b27e-4f1744d14fb3}">
+		<relationship name="audioFile">
+			<destination>{ff1193d2-aef1-45ea-89e9-d944757106dd}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{94b3708c-d04a-4987-a750-0979bc7242de}">
+		<relationship name="audioFile">
+			<destination>{d1ffe7ab-b2b7-4af6-bf28-ba6f24f65c04}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{c0438177-7c4e-403a-bde8-9807194b5fd6}">
 		<relationship name="effects">
 			<destination>{508696df-e022-4f90-9e84-e5411b0595d9}</destination>
+			<destination>{e50d3fe6-ae15-42e6-9a9c-d9cd7d27b473}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4f7c9e5b-b25c-42c7-955f-2e1bffb5b77b}" />
 	<object class="MixerBusFader" id="{f1f3e373-a848-4186-8634-f1a0d8c7f6d8}" />
 	<object class="MixerBusFader" id="{508696df-e022-4f90-9e84-e5411b0595d9}" />
+	<object class="SpatialiserEffect" id="{e50d3fe6-ae15-42e6-9a9c-d9cd7d27b473}" />
 </objects>

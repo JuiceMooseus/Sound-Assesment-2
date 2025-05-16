@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{d781202c-7bac-44a7-bfd5-4b4f8d9025cc}">
+		<property name="note">
+			<value>splat2.ogg by gprosser -- https://freesound.org/s/361030/ -- License: Creative Commons 0</value>
+		</property>
+		<property name="assetPath">
+			<value>Projectiles (Player Hit)/Enemy/Splat 2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.38417233560090702</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4c43130b-9186-4fb6-9d65-a9acdac70927}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{7f624c25-94b4-4fcb-91d8-cb3d774879b0}">
+		<property name="color">
+			<value>Blue Light 1</value>
+		</property>
+		<property name="assetPath">
+			<value>Companion/Tool Select (Plant Spawner)/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4c43130b-9186-4fb6-9d65-a9acdac70927}</destination>
+		</relationship>
+	</object>
+</objects>

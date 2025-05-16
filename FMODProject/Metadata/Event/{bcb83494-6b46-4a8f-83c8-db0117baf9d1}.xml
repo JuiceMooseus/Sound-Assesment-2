@@ -166,6 +166,7 @@ Triggered: When a seed is fired from the droid and impacts the ground</value>
 	<object class="MixerBusEffectChain" id="{efde0567-b0b1-4387-a01c-699e4d1f4bb9}">
 		<relationship name="effects">
 			<destination>{86b7ddce-5172-4298-83df-2bfb84a4a267}</destination>
+			<destination>{5c02d2ca-4803-4f45-b542-de0df41ae867}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ec7ba709-d9f3-413f-8e04-8901b8af5781}">
@@ -199,6 +200,7 @@ Triggered: When a seed is fired from the droid and impacts the ground</value>
 	</object>
 	<object class="MixerBusPanner" id="{26d9da81-104a-4a7e-a8ca-8c017acf061e}" />
 	<object class="MixerBusFader" id="{86b7ddce-5172-4298-83df-2bfb84a4a267}" />
+	<object class="SpatialiserEffect" id="{5c02d2ca-4803-4f45-b542-de0df41ae867}" />
 	<object class="AutomationCurve" id="{bbac4e7b-c956-4a0f-bdf7-ca967d982d13}">
 		<relationship name="parameter">
 			<destination>{a6d34cc7-626f-4525-bcd5-7391a92de070}</destination>

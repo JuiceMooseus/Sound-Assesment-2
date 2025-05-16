@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{3db9b7a7-8843-4617-b65b-3d3a8697352e}">
+		<property name="note">
+			<value>Game Character Footsteps On Metal by IENBA -- https://freesound.org/s/698698/ -- License: Creative Commons 0</value>
+		</property>
+		<property name="assetPath">
+			<value>Character/Footstep (Metal)/Metal Footstep 12.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.36503401360544219</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4c43130b-9186-4fb6-9d65-a9acdac70927}</destination>
+		</relationship>
+	</object>
+</objects>

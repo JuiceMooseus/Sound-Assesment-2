@@ -51,7 +51,6 @@ Triggered: On Start</value>
 			<destination>{f4ffe6ab-786a-49e1-bb13-fde3fceffa4b}</destination>
 		</relationship>
 		<relationship name="parameters">
-			<destination>{ad58c3a7-2bc9-0263-14d6-c1fa1cb73367}</destination>
 			<destination>{bf81ee50-6c69-48e7-b2cc-195eb3e0b800}</destination>
 		</relationship>
 		<relationship name="userProperties">
@@ -142,11 +141,6 @@ Triggered: On Start</value>
 		</relationship>
 	</object>
 	<object class="Timeline" id="{f4ffe6ab-786a-49e1-bb13-fde3fceffa4b}" />
-	<object class="ParameterProxy" id="{ad58c3a7-2bc9-0263-14d6-c1fa1cb73367}">
-		<relationship name="preset">
-			<destination>{aa8da718-ca68-44ee-b0fe-94a5a7b327b3}</destination>
-		</relationship>
-	</object>
 	<object class="ParameterProxy" id="{bf81ee50-6c69-48e7-b2cc-195eb3e0b800}">
 		<relationship name="modules">
 			<destination>{23203db6-02e5-4964-8f28-8c7975923879}</destination>
@@ -192,11 +186,8 @@ Triggered: On Start</value>
 		<property name="isCutoff">
 			<value>true</value>
 		</property>
-		<property name="start">
-			<value>4</value>
-		</property>
 		<property name="length">
-			<value>8.9852218627929688</value>
+			<value>24</value>
 		</property>
 		<property name="looping">
 			<value>true</value>
@@ -231,11 +222,8 @@ Triggered: On Start</value>
 		<property name="isCutoff">
 			<value>true</value>
 		</property>
-		<property name="start">
-			<value>11</value>
-		</property>
 		<property name="length">
-			<value>8</value>
+			<value>24</value>
 		</property>
 		<property name="looping">
 			<value>true</value>
@@ -270,11 +258,8 @@ Triggered: On Start</value>
 		<property name="isCutoff">
 			<value>true</value>
 		</property>
-		<property name="start">
-			<value>17</value>
-		</property>
 		<property name="length">
-			<value>7</value>
+			<value>23.999999999999996</value>
 		</property>
 		<property name="looping">
 			<value>true</value>
@@ -310,7 +295,7 @@ Triggered: On Start</value>
 			<value>true</value>
 		</property>
 		<property name="length">
-			<value>5</value>
+			<value>23.999999999999996</value>
 		</property>
 		<property name="looping">
 			<value>true</value>

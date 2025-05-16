@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="EncodableAsset" id="{66f0c411-ba52-4828-9ca8-9fe2e55da0e2}">
 		<property name="color">
-			<value>Purple</value>
+			<value>Magenta Light 1</value>
 		</property>
 		<property name="assetPath">
 			<value>Procedural (Tree)/</value>

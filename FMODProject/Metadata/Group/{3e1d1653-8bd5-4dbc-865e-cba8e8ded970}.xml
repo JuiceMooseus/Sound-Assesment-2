@@ -4,6 +4,9 @@
 		<property name="color">
 			<value>Blue Light 1</value>
 		</property>
+		<property name="volume">
+			<value>-21</value>
+		</property>
 		<property name="overridingInputFormat">
 			<value>1</value>
 		</property>
