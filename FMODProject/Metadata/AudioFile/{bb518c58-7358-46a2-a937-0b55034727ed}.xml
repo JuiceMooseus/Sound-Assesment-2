@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{bb518c58-7358-46a2-a937-0b55034727ed}">
+		<property name="note">
+			<value>Game Character Footsteps On Metal by IENBA -- https://freesound.org/s/698698/ -- License: Creative Commons 0</value>
+		</property>
 		<property name="assetPath">
 			<value>Character/Footstep (Metal)/Metal Footstep 5.wav</value>
 		</property>

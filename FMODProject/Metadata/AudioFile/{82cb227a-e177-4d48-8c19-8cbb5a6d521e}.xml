@@ -5,7 +5,7 @@
 			<value>Recorded in the foley room with River</value>
 		</property>
 		<property name="assetPath">
-			<value>Enemy/Worm Pop Down.wav</value>
+			<value>Enemy/Tunelling/Pop Down.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
