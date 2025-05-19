@@ -438,7 +438,7 @@ MonoBehaviour:
   Path: FMODProject/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638831764601620954
+  lastModified: 638832643530563191
   FileSizes:
   - Name: Desktop
     Value: 150688
@@ -618,10 +618,10 @@ MonoBehaviour:
   Path: FMODProject/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638831764602982245
+  lastModified: 638832651695084508
   FileSizes:
   - Name: Desktop
-    Value: 19559744
+    Value: 22462464
   Exists: 1
 --- !u!114 &-2109384400157232281
 MonoBehaviour:
@@ -648,7 +648,7 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
-  MaxDistance: 10
+  MaxDistance: 8.2
   Length: 386
 --- !u!114 &-1955583102780028831
 MonoBehaviour:
@@ -840,7 +840,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 6822275189926520118}
   cacheVersion: 131847
-  cacheTime: 638831764602982245
+  cacheTime: 638832651695084508
   SerializableEventsDict:
   - key: event:/Character/Player Footsteps
     index: 0
@@ -1468,7 +1468,7 @@ MonoBehaviour:
   Path: FMODProject/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638831764601640851
+  lastModified: 638832643530598993
   FileSizes:
   - Name: Desktop
     Value: 4244
@@ -1540,7 +1540,7 @@ MonoBehaviour:
   Name: Surface
   StudioPath: 
   Min: 0
-  Max: 2
+  Max: 3
   Default: 0
   ID:
     data1: 2238430967
@@ -1551,6 +1551,7 @@ MonoBehaviour:
   - Sand
   - Rock
   - Metal
+  - NoSurface
   Exists: 1
 --- !u!114 &8325725684856470497
 MonoBehaviour:

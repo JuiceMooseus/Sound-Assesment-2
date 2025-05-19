@@ -41,9 +41,13 @@ public class Player : MonoBehaviour
 		{
 			PlayFootstep(1);
 		}
-		else
+		else if (OnMetal)
 		{
 			PlayFootstep(2);
+		}
+		else
+		{
+			PlayFootstep(3);
 		}
 	}
 
