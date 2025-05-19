@@ -183,6 +183,9 @@ Triggered: On Collision</value>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{c9b96903-ea92-45c6-95f8-6ff646011a69}">
+		<property name="volume">
+			<value>-6.5</value>
+		</property>
 		<property name="name">
 			<value>Rock</value>
 		</property>

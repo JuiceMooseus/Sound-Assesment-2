@@ -182,7 +182,7 @@ Triggered: Randomly every 15 - 20 seconds.</value>
 	</object>
 	<object class="EventMixerGroup" id="{50e74163-f3a3-4103-8220-08950ce08cb5}">
 		<property name="volume">
-			<value>-10</value>
+			<value>-20</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>

@@ -255,7 +255,7 @@ Triggered: When switching tool</value>
 	</object>
 	<object class="EventMixerGroup" id="{91a853a0-5451-4a38-9df9-ea587b3c7138}">
 		<property name="volume">
-			<value>-2</value>
+			<value>-4.5</value>
 		</property>
 		<property name="name">
 			<value>Vocals</value>

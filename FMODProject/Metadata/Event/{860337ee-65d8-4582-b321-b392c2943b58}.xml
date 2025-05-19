@@ -89,7 +89,7 @@ Triggered: On Start</value>
 			<value>0</value>
 		</property>
 		<property name="maximumDistance">
-			<value>90</value>
+			<value>100</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{110e32aa-c0a2-4e1e-9772-7f694186d74a}" />
@@ -182,6 +182,7 @@ Triggered: On Start</value>
 		<relationship name="effects">
 			<destination>{8c67ac3b-def0-474c-ad6c-769af9ce3a21}</destination>
 			<destination>{371a55b9-9db3-4420-9d85-70062915c25d}</destination>
+			<destination>{16b5dfb5-5ac9-4147-8713-747b71fd96c6}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b841ea01-69eb-4958-a2fd-662dde869a33}">
@@ -212,6 +213,14 @@ Triggered: On Start</value>
 	</object>
 	<object class="MixerBusFader" id="{8c67ac3b-def0-474c-ad6c-769af9ce3a21}" />
 	<object class="FlangerEffect" id="{371a55b9-9db3-4420-9d85-70062915c25d}" />
+	<object class="SpatialiserEffect" id="{16b5dfb5-5ac9-4147-8713-747b71fd96c6}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="panBlend">
+			<value>0.854999959</value>
+		</property>
+	</object>
 	<object class="AutomationCurve" id="{c5a91e88-9de5-4d9d-8125-65f6f0b7f0b9}">
 		<relationship name="parameter">
 			<destination>{1205418e-5eee-447c-9330-c2e714fe0227}</destination>
@@ -256,7 +265,7 @@ Triggered: On Start</value>
 			<value>0.16420361247947454</value>
 		</property>
 		<property name="value">
-			<value>-38</value>
+			<value>-21</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{8c3f4ac3-6062-4436-8333-efdc397878cc}">
@@ -264,15 +273,15 @@ Triggered: On Start</value>
 			<value>200</value>
 		</property>
 		<property name="value">
-			<value>5</value>
+			<value>9</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{a5a827a4-af63-4401-98e5-ae16c93bbf48}">
 		<property name="position">
-			<value>40</value>
+			<value>15</value>
 		</property>
 		<property name="value">
-			<value>-8</value>
+			<value>-7</value>
 		</property>
 	</object>
 	<object class="Automator" id="{e2ebf86e-cd83-4b62-930b-8b5493784a19}">

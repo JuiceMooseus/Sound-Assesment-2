@@ -251,7 +251,7 @@ Triggered: When the feet of the character animation touch the floor.
 	</object>
 	<object class="EventMixerGroup" id="{27d9565b-d0c3-43a1-b3cf-afbb98ccaf9f}">
 		<property name="volume">
-			<value>-2</value>
+			<value>-0.5</value>
 		</property>
 		<property name="name">
 			<value>Metal</value>
@@ -497,7 +497,7 @@ Triggered: When the feet of the character animation touch the floor.
 	</object>
 	<object class="SFXReverbEffect" id="{492cff2e-aaf6-47c1-b7ec-1c9ee38e1bda}">
 		<property name="decayTime">
-			<value>700</value>
+			<value>850</value>
 		</property>
 	</object>
 </objects>

@@ -16,7 +16,7 @@ Triggered: On Start</value>
 			<value>Rotation</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{0315ad32-2855-432c-8399-cc7b48807503}</destination>
@@ -173,6 +173,7 @@ Triggered: On Start</value>
 	<object class="MixerBusEffectChain" id="{6669af57-604d-4f7b-a33a-2e5728606807}">
 		<relationship name="effects">
 			<destination>{6f6f1f25-5119-4a72-a545-937ba407cc35}</destination>
+			<destination>{5e1d4196-fd10-4097-a678-161fb539e60c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{3d9566c9-1ad8-4dbc-b5e8-97e6c82c5779}" />
@@ -203,6 +204,14 @@ Triggered: On Start</value>
 	</object>
 	<object class="MixerBusPanner" id="{52d11eb4-b610-46df-bca9-2cbac44897d3}" />
 	<object class="MixerBusFader" id="{6f6f1f25-5119-4a72-a545-937ba407cc35}" />
+	<object class="SpatialiserEffect" id="{5e1d4196-fd10-4097-a678-161fb539e60c}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="panBlend">
+			<value>0.870000005</value>
+		</property>
+	</object>
 	<object class="AutomationCurve" id="{138f27dd-0334-42a5-b9d3-1fe65285e6a2}">
 		<relationship name="parameter">
 			<destination>{92a522fc-5c6c-47b2-985b-9ef43181a39a}</destination>
@@ -227,8 +236,8 @@ Triggered: On Start</value>
 		</relationship>
 		<relationship name="automationPoints">
 			<destination>{185747dc-433a-460b-be36-28ecd6c23002}</destination>
-			<destination>{ece606fb-8ec7-4f5e-944e-5693be970175}</destination>
 			<destination>{d05375d9-aa93-4f7b-94f7-62b46a73da74}</destination>
+			<destination>{65788122-a2cf-4c9e-81e8-b399db8ceb38}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{92d1c312-9243-4c47-806a-b691e2301c7a}" />
@@ -285,20 +294,20 @@ Triggered: On Start</value>
 			<value>-80</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{ece606fb-8ec7-4f5e-944e-5693be970175}">
-		<property name="position">
-			<value>65</value>
-		</property>
-		<property name="value">
-			<value>-5</value>
-		</property>
-	</object>
 	<object class="AutomationPoint" id="{d05375d9-aa93-4f7b-94f7-62b46a73da74}">
 		<property name="position">
 			<value>301</value>
 		</property>
 		<property name="value">
 			<value>5</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{65788122-a2cf-4c9e-81e8-b399db8ceb38}">
+		<property name="position">
+			<value>10</value>
+		</property>
+		<property name="value">
+			<value>-16</value>
 		</property>
 	</object>
 </objects>

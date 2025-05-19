@@ -77,7 +77,7 @@ Triggered: When the droid fires its laser</value>
 			<value>30</value>
 		</property>
 		<property name="maximumDistance">
-			<value>100</value>
+			<value>150</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{f92b0aad-d4a3-4896-aaea-e447fb044443}" />
@@ -180,8 +180,11 @@ Triggered: When the droid fires its laser</value>
 		</relationship>
 	</object>
 	<object class="SpatialiserEffect" id="{52a80b8f-52dc-4f8e-aea6-dedd598bbf99}">
-		<property name="distanceRolloffType">
+		<property name="extentMode">
 			<value>1</value>
+		</property>
+		<property name="panBlend">
+			<value>0.829999983</value>
 		</property>
 	</object>
 	<object class="RandomizerModulator" id="{6081a9d0-bb9a-4136-b0bd-79c0d061f1ce}">

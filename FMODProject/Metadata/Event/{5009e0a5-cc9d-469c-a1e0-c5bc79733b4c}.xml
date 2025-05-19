@@ -77,7 +77,7 @@ Triggered: if the ants velocity exceeds 2 (if the player runs into them etc).</v
 			<value>0</value>
 		</property>
 		<property name="maximumDistance">
-			<value>10</value>
+			<value>8.19999981</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{bbf75699-cc0f-4b13-84f2-8574f64b74d9}" />
@@ -136,7 +136,7 @@ Triggered: if the ants velocity exceeds 2 (if the player runs into them etc).</v
 	</object>
 	<object class="EventMixerGroup" id="{18bae859-0825-4943-bc07-f0615c6d30bf}">
 		<property name="volume">
-			<value>-17.5</value>
+			<value>-27.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>

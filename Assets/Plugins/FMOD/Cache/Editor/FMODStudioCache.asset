@@ -438,7 +438,7 @@ MonoBehaviour:
   Path: FMODProject/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638832643530563191
+  lastModified: 638832676310093160
   FileSizes:
   - Name: Desktop
     Value: 150688
@@ -618,10 +618,10 @@ MonoBehaviour:
   Path: FMODProject/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638832651695084508
+  lastModified: 638832701372545052
   FileSizes:
   - Name: Desktop
-    Value: 22462464
+    Value: 22463360
   Exists: 1
 --- !u!114 &-2109384400157232281
 MonoBehaviour:
@@ -840,7 +840,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 6822275189926520118}
   cacheVersion: 131847
-  cacheTime: 638832651695084508
+  cacheTime: 638832701372545052
   SerializableEventsDict:
   - key: event:/Character/Player Footsteps
     index: 0
@@ -921,7 +921,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -2426591062239061751}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 0
   Parameters:
   - {fileID: -4073240458297205181}
@@ -1212,7 +1212,7 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
-  MaxDistance: 100
+  MaxDistance: 150
   Length: 557
 --- !u!114 &5022516731963678806
 MonoBehaviour:
@@ -1391,12 +1391,12 @@ MonoBehaviour:
   Banks:
   - {fileID: -2426591062239061751}
   IsStream: 1
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 0
   Parameters:
   - {fileID: -4157269168001811013}
   MinDistance: 0
-  MaxDistance: 90
+  MaxDistance: 100
   Length: 0
 --- !u!114 &6527242745004900302
 MonoBehaviour:
@@ -1468,7 +1468,7 @@ MonoBehaviour:
   Path: FMODProject/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638832643530598993
+  lastModified: 638832676310123541
   FileSizes:
   - Name: Desktop
     Value: 4244
