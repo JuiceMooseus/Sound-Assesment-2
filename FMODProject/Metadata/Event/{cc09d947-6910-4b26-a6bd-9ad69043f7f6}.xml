@@ -553,7 +553,7 @@ Triggered: On Start
 	</object>
 	<object class="AutomationPoint" id="{69f4c924-185a-4d5a-aafb-2ab9166cff2b}">
 		<property name="position">
-			<value>-1</value>
+			<value>-0.98031639983579644</value>
 		</property>
 		<property name="value">
 			<value>-80</value>
@@ -569,10 +569,10 @@ Triggered: On Start
 	</object>
 	<object class="AutomationPoint" id="{f67ae736-ec2b-4fc3-b0c8-7d8d383665cb}">
 		<property name="position">
-			<value>-0.98029556650246308</value>
+			<value>-0.95999999999999996</value>
 		</property>
 		<property name="value">
-			<value>-25.8733292</value>
+			<value>-27</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{120f2323-5d42-4adb-ade4-1c8f7dea2c58}">
